@@ -1,6 +1,6 @@
-# MetroMind — Intelligent Enterprise Document Classification & Routing System
+# AI Scategorizer — Intelligent Enterprise Document Classification & Routing System
 
-**MetroMind** is a production-style, bilingual (English + Hindi) enterprise document classification and intelligent routing platform engineered as a B.Tech Capstone Project. 
+**AI Scategorizer** is a production-style, bilingual (English + Hindi) enterprise document classification and intelligent routing platform engineered as a B.Tech Capstone Project. 
 
 It automates the ingestion, preprocessing, optical character recognition (OCR), NLP understanding, ML classification, priority evaluation, AI summarization, named entity extraction, sentiment scoring, department routing, and human verification workflow for incoming organizational documents.
 
@@ -42,7 +42,7 @@ It automates the ingestion, preprocessing, optical character recognition (OCR), 
 
 7. **Dual Database Persistence (MongoDB + Persistent SQLite Fallback)**
    - Connects to local MongoDB automatically when running (`mongodb://localhost:27017`).
-   - Seamlessly uses a persistent SQLite document store (`backend/metromind.db`) if MongoDB is inactive, ensuring zero setup friction on macOS.
+   - Seamlessly uses a persistent SQLite document store (`backend/AI Scategorizer.db`) if MongoDB is inactive, ensuring zero setup friction on macOS.
 
 ---
 
@@ -52,11 +52,11 @@ The database is pre-seeded with 5 demo accounts for immediate testing:
 
 | Role | Email Address | Password | Department Access |
 | :--- | :--- | :--- | :--- |
-| **System Admin** | `admin@metromind.local` | `admin123` | All System Modules & Settings |
-| **Station Controller** | `station@metromind.local` | `station123` | Safety & Operations |
-| **Finance Manager** | `finance@metromind.local` | `finance123` | Finance & Payments |
-| **Maintenance Head** | `maintenance@metromind.local` | `maint123` | Maintenance & Equipment Faults |
-| **Document Uploader** | `uploader@metromind.local` | `user123` | Document Upload & Self Records |
+| **System Admin** | `admin@AI Scategorizer.local` | `admin123` | All System Modules & Settings |
+| **Station Controller** | `station@AI Scategorizer.local` | `station123` | Safety & Operations |
+| **Finance Manager** | `finance@AI Scategorizer.local` | `finance123` | Finance & Payments |
+| **Maintenance Head** | `maintenance@AI Scategorizer.local` | `maint123` | Maintenance & Equipment Faults |
+| **Document Uploader** | `uploader@AI Scategorizer.local` | `user123` | Document Upload & Self Records |
 
 ---
 
